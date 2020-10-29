@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="portlock", # Replace with your own username
-    version="0.0.1",
+    name="portlock",
+    version="0.0.2",
     author="Kapil Yedidi",
     author_email="kapily.code@gmail.com",
-    description="A small example package",
+    description="A package to lock ports",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/kapily/portlock",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
