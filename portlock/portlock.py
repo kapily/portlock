@@ -1,5 +1,4 @@
 import socket
-import fire
 import sys
 import logging
 import errno
@@ -69,6 +68,3 @@ def first_open_port(start, end):
             return e, port
     return None, None
 
-
-if __name__ == '__main__':
-    fire.Fire()
